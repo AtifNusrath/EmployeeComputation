@@ -11,11 +11,11 @@ public class UC3 {
             if (empType == FULL_TIME)
             {
                 System.out.println("Employee is Present Full time");
-                workingHours = 16;
+                workingHours =8 ;
             } else if (empType == PART_TIME)
             {
                 System.out.println("Employee is Present Part time");
-                workingHours = 8;
+                workingHours = 4;
             } else
             {
                 System.out.println("Employee is Absent");
