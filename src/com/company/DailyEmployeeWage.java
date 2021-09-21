@@ -1,6 +1,6 @@
 package com.company;
 
-public class UC2 {
+public class DailyEmployeeWage {
         public static void main(String[] args)
         {
             final int FULL_TIME = 1;

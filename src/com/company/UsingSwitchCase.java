@@ -1,12 +1,12 @@
 package com.company;
 
-public class UC5 {
-        public static void main(String[] args)
+public class UsingSwitchCase {
+           public static void main(String[] args)
         {
-            final int PART_TIME = 1;
-            final int FULL_TIME = 2;
+            final int PART_TIME = 0;
+            final int FULL_TIME = 1;
             final int WAGE_PER_HR = 20;
-            int empType = (int) (Math.random() * 100) % 3;
+            int empType = (int) (Math.random() * 10) % 2;
             int workingHours =0;
             switch (empType)
             {
@@ -25,4 +25,5 @@ public class UC5 {
             System.out.println("Employee Daily Wage is " + wage);
         }
     }
+
 

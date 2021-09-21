@@ -1,12 +1,12 @@
 package com.company;
 
-public class UC4 {
-           public static void main(String[] args)
+public class MonthWages {
+        public static void main(String[] args)
         {
-            final int PART_TIME = 0;
-            final int FULL_TIME = 1;
+            final int PART_TIME = 1;
+            final int FULL_TIME = 2;
             final int WAGE_PER_HR = 20;
-            int empType = (int) (Math.random() * 10) % 2;
+            int empType = (int) (Math.random() * 100) % 3;
             int workingHours =0;
             switch (empType)
             {
@@ -25,5 +25,4 @@ public class UC4 {
             System.out.println("Employee Daily Wage is " + wage);
         }
     }
-
 

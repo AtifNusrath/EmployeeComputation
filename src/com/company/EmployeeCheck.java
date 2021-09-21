@@ -1,6 +1,6 @@
 package com.company;
 
-public class UC1 {
+public class EmployeeCheck {
         public static void main(String args[]) {
             final int FULL_TIME = 1;
             int empType = (int) (Math.random() * 100) % 2;

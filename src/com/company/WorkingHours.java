@@ -1,6 +1,6 @@
 package com.company;
 
-public class UC6 {
+public class WorkingHours {
         public static void main(String[] args)
         {
             final int PART_TIME = 1;
